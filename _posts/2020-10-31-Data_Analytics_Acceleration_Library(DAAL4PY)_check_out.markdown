@@ -7,15 +7,13 @@ permalink: /discoveries/
 
 Daal4py is based on **Intel Data Analytics Acceleration Lybrary**. This technology allows to decrease learning time for classic sklearn methods due to several acceleration tricks, including matrix transformation, which are based on Intel DAAL.
 
---
-from sklearn.datasets import load_diabetes
-from sklearn.model_selection import GridSearchCV
 
-data = load_diabetes()
+    from sklearn.datasets import load_diabetes
+    from sklearn.model_selection import GridSearchCV
 
-X = data.data
-y = data.target
---
+    data = load_diabetes()
+    X = data.data
+    y = data.target
 
 
 
