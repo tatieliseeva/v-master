@@ -6,14 +6,7 @@ permalink: /discoveries/
 ---
 
 Daal4py is based on **Intel Data Analytics Acceleration Lybrary**. This technology allows to decrease learning time for classic sklearn methods due to several acceleration tricks, including matrix transformation, which are based on Intel DAAL.
-
-{% highlight python %}
-    from sklearn.datasets import load_diabetes
-    from sklearn.model_selection import GridSearchCV
-    data = load_diabetes()
-    X = data.data
-    y = data.target
-{% endhighlight %}
+Daal4py can be installed with --conda install -c intel daal4py-- 
 
 
 ```python
@@ -24,14 +17,3 @@ data = load_diabetes()
 X = data.data
 y = data.target
 ```
-
-
-```python
-# Here is some in python
-def foo():
-  print 'foo'
-  
-X = data.data
-```
-
-
