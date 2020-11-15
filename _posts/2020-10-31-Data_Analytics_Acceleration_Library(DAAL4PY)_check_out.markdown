@@ -17,6 +17,7 @@ Daal4py is based on **Intel Data Analytics Acceleration Lybrary**. This technolo
 
 
 ```python
+# Here is some in python
 from sklearn.datasets import load_diabetes
 from sklearn.model_selection import GridSearchCV
 data = load_diabetes()
