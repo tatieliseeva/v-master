@@ -30,6 +30,8 @@ y = data.target
 # Here is some in python
 def foo():
   print 'foo'
+  
+X = data.data
 ```
 
 
