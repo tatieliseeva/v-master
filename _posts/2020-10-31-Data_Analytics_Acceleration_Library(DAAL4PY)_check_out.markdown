@@ -20,6 +20,7 @@ Daal4py is based on **Intel Data Analytics Acceleration Lybrary**. This technolo
 # Here is some in python
 def foo():
   print 'foo'
+```
 
 
 
