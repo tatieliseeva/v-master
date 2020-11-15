@@ -25,4 +25,10 @@ y = data.target
 ```
 
 
+```python
+# Here is some in python
+def foo():
+  print 'foo'
+```
+
 
