@@ -12,11 +12,9 @@ Usage example of the library is demonsntrated on the following code:
 
 
 ```python
-
 from sklearn.datasets import load_diabetes
-from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV
-from daal4py.sklearn.ensemble.decision_forest import RandomForestClassifier as rfc
+from daal4py.sklearn.ensemble.decision_forest import RandomForestRegressor
 from time import time
 
 data = load_diabetes()
@@ -30,7 +28,7 @@ params = {
     'min_samples_split': [2, 4, 6, 8]
 }
 
-# results for sklearn
+# add compare to sklear if needed
 start = time()
 grid_clf = GridSearchCV(estimator=RandomForestRegressor(), param_grid=params, 
                         n_jobs=-1, cv=5)
@@ -39,11 +37,3 @@ end = time()
 learning_time = end - start
 print(["Simple sklearn", learning_time])
 
-# results for daal
-start = time()
-grid_clf = GridSearchCV(estimator=rfc, param_grid=params, n_jobs=-1, cv=5)
-grid_clf.fit(X, y)
-end = time()
-learning_time = end - start
-print(["DAAL4PY", learning_time])
-```
