@@ -6,7 +6,7 @@ permalink: /discoveries/
 ---
 
 Daal4py is based on **Intel Data Analytics Acceleration Lybrary**. This technology allows to decrease learning time for classic sklearn methods due to several acceleration tricks, including matrix transformation, which are based on Intel DAAL.
-Daal4py can be installed with --conda install -c intel daal4py-- 
+Daal4py can be installed with ---conda install -c intel daal4py---
 
 
 ```python
