@@ -15,6 +15,8 @@ data = load_diabetes()
 
 X = data.data
 y = data.target
+```
+
 
 
 
