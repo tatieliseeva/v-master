@@ -16,5 +16,14 @@ Daal4py is based on **Intel Data Analytics Acceleration Lybrary**. This technolo
     y = data.target
 
 
+Happy fun highlighting. 
+[More details](https://github.com/mojombo/jekyll/wiki/liquid-extensions)
+
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
 
 
