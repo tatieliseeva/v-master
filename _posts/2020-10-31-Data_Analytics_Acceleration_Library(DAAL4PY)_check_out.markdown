@@ -19,7 +19,7 @@ Daal4py is based on **Intel Data Analytics Acceleration Lybrary**. This technolo
 Happy fun highlighting. 
 [More details](https://github.com/mojombo/jekyll/wiki/liquid-extensions)
 
-{% highlight ruby %}
+{% highlight python %}
 def foo
   puts 'foo'
 end
