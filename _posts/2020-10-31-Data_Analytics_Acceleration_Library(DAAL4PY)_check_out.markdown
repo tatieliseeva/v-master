@@ -15,10 +15,11 @@ Daal4py is based on **Intel Data Analytics Acceleration Lybrary**. This technolo
     y = data.target
 {% endhighlight %}
 
-    ```python
-    # Here is some in python
-    def foo():
-      print 'foo'
+
+```python
+# Here is some in python
+def foo():
+  print 'foo'
 
 
 
