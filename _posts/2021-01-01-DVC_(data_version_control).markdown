@@ -27,4 +27,10 @@ To create .dvc folder, type in command line:
 ```python
 $ dvc init
 ```
-This folder contains configuration information.
+This folder contains configuration information. To set up remote (or not) storage:
+
+```python
+$ dvc remote add -d remote_storage path/to/your/dvc_remote
+```
+
+
