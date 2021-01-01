@@ -13,10 +13,14 @@ To install DVC, one has to activate an environment an execute the following comm
 
 
 ```python
-$ conda config --add channels conda-forge
-$ conda install dvc
+$ python -m pip install dvc
 ```
 
+After it, download your repository from GitHub:
 
+```python
+$ git clone https://github.com/YourUsername/data-version-control
+$ cd data-version-control
+```
 
 
