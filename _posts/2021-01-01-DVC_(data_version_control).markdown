@@ -11,7 +11,12 @@ Data Version Control (DVC) allows easily keeping track of changes to models or d
 
 To install DVC, one has to activate an environment an execute the following commands:
 
+
 ```python
 $ conda config --add channels conda-forge
 $ conda install dvc
+```
+
+
+
 
