@@ -22,5 +22,9 @@ After it, download your repository from GitHub:
 $ git clone https://github.com/YourUsername/data-version-control
 $ cd data-version-control
 ```
+To create .dvc folder, type in command line:
 
-
+```python
+$ dvc init
+```
+This folder contains configuration information.
