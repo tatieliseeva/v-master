@@ -52,3 +52,22 @@ data-version-control/
     ├── prepare.py
     └── train.py
 ```
+
+## The first experiment:
+
+```python
+$ git checkout -b "first_experiment"
+$ dvc init
+```
+And after to create a remote storage as described above. 
+
+To initiate file tracing:
+```$ dvc add data/raw/train
+$ dvc add data/raw/val
+```
+And manage files:
+``$ git add --all``
+
+
+
+
