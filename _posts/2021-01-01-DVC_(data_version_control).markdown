@@ -33,4 +33,19 @@ This folder contains configuration information. To set up remote (or not) storag
 $ dvc remote add -d remote_storage path/to/your/dvc_remote
 ```
 
+Preferable data structure for repository:
 
+```
+data-version-control/
+|
+├── data/
+│   ├── prepared/
+│   └── raw/
+|
+├── metrics/
+├── model/
+└── src/
+    ├── evaluate.py
+    ├── prepare.py
+    └── train.py
+```
