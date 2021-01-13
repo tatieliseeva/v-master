@@ -72,3 +72,23 @@ Commit on GitHub: ```$ git commit -m "start"```
 To load files from cash to remote storage: ```$ dvc push```. DVC has also command ```commit```, but it is used in case if data was changed.
 
 And, finally, add everything on GitHub: ```$ git push --set-upstream origin first_experiment```. Use ```--set-upstream``` only with the first push.
+
+On a local driver, the file folder can be removed. To restore the data version, use ```$ dvc checkout path/to/data.dvc```
+
+After every change, stamdard set of comands:
+```$ dvc add model/model.joblib
+$ git add --all
+$ git commit -m "change"
+```
+To push: 
+```$ git push
+$ dvc push
+```
+As last, add Tags:
+```$ git tag -a sgd-classifier -m "SGDClassifier with accuracy 71.86%"
+$ git push origin --tags
+$ git tag
+```
+
+
+
