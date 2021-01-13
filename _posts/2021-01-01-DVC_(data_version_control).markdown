@@ -65,9 +65,10 @@ To initiate file tracing:
 ```$ dvc add data/raw/train
 $ dvc add data/raw/val
 ```
-And manage files:
-``$ git add --all``
+Manage files: ```$ git add --all```
 
+Commit on GitHub: ```$ git commit -m "start"```
 
+To load files from cash to remote storage: ```$ dvc push```. DVC has also command ```commit```, but it is used in case if data was changed.
 
-
+And, finally, add everything on GitHub: ```$ git push --set-upstream origin first_experiment```. Use ```--set-upstream``` only with the first push.
