@@ -2,7 +2,7 @@
 layout: post
 title:  "Data Version Control (DVC)"
 categories: data_analysis, dataset
-permalink: /discoveries/DVC
+permalink: /discoveries
 ---
 
 Data Version Control (DVC) allows easily keeping track of changes to models or datasets. Its main feature is that it mimics git commands. The repository can be either on the same computer on in the cloud. For every model or dataversion will be generated a small text file. this file is lightweight and it can also be stored on git with corresponding code. 
