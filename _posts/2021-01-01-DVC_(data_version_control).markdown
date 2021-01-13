@@ -41,6 +41,9 @@ data-version-control/
 ├── data/
 │   ├── prepared/
 │   └── raw/
+|        ├── train/
+|        ├── val/
+|        └── test/
 |
 ├── metrics/
 ├── model/
