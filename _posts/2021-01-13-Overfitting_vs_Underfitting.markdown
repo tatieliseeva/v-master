@@ -5,7 +5,7 @@ categories: ML
 permalink: /discoveries
 ---
 ## General Tipps
-- check out several LR with step 0.001;
+- check out several LR with step 0.001, increasing the LR moves the training from underfitting towards overfitting;
 - dropout helps to remove generalisation noise from a model;
 ## Overfitting
 Overfitting is when a model is too complicated to save data generate features and therefore saves also irrelevant noise. That cause exellent performance on training data but fails to handle a data which is not yet been seen.
