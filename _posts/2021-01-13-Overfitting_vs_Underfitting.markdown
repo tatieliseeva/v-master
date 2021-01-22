@@ -17,7 +17,8 @@ Overfitting is when a model is too complicated to save data generate features an
 ## Underfitting
 Underfitting is an undercapasity of a chosen model. Means that the model is not anymore able to reduce neither test or validation loss. Can also be caused by insufficient data. Continuously decreasing line of test loss shows the model underfitting
 ## General
-- Leaky ReLU always outperformes ReLU (+He initialization), ELU outperforms, but slower LReLU
+- Leaky ReLU always outperformes ReLU (+He initialization), ELU outperforms, but slower LReLU. 
+- ELU: Architecture must be sequential, input normalized [0:1], weight initalisation lecun.
 
 
 Ref.:
