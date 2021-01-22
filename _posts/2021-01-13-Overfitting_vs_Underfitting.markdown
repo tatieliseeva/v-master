@@ -22,3 +22,4 @@ Underfitting is an undercapasity of a chosen model. Means that the model is not 
 
 Ref.:
 [1] A DISCIPLINED APPROACH TO NEURAL NETWORK HYPER-PARAMETERS: PART 1 – LEARNING RATE, BATCH SIZE, MOMENTUM, AND WEIGHT DECAY https://arxiv.org/pdf/1803.09820.pdf
+[2] Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron
